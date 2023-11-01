@@ -38,11 +38,11 @@ done
 echo ""
 echo ""
 
-COUNTER=0
+# COUNTER=0
 
 for item in "${packages[@]}"
 do
-  (( COUNTER++ ))
+  # (( COUNTER++ ))
   pushd "$item"
   # echo "🚀 Publishing ${item}... (${COUNTER} of ${#packages[@]})"
   # echo "🚀 Publishing ${item}..."
